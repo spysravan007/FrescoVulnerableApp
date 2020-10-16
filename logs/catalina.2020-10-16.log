@@ -1,0 +1,43 @@
+16-Oct-2020 04:04:42.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.59
+16-Oct-2020 04:04:42.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 16:57:18 UTC
+16-Oct-2020 04:04:42.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.59.0
+16-Oct-2020 04:04:42.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Oct-2020 04:04:42.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.0.0-1032-gke
+16-Oct-2020 04:04:42.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Oct-2020 04:04:42.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+16-Oct-2020 04:04:42.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-8u171-b11-0ubuntu0.16.04.1-b11
+16-Oct-2020 04:04:42.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Oct-2020 04:04:42.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /projects/challenge/FrescoVulnerableApp
+16-Oct-2020 04:04:42.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /projects/challenge/FrescoVulnerableApp
+16-Oct-2020 04:04:42.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/projects/challenge/FrescoVulnerableApp/conf/logging.properties
+16-Oct-2020 04:04:42.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Oct-2020 04:04:42.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Oct-2020 04:04:42.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Oct-2020 04:04:42.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Oct-2020 04:04:42.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Oct-2020 04:04:42.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/projects/challenge/FrescoVulnerableApp
+16-Oct-2020 04:04:42.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/projects/challenge/FrescoVulnerableApp
+16-Oct-2020 04:04:42.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/projects/challenge/FrescoVulnerableApp/temp
+16-Oct-2020 04:04:42.078 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+16-Oct-2020 04:04:42.919 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8000"]
+16-Oct-2020 04:04:43.068 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Oct-2020 04:04:43.145 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2385 ms
+16-Oct-2020 04:04:43.292 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Oct-2020 04:04:43.292 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.59
+16-Oct-2020 04:04:43.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/projects/challenge/FrescoVulnerableApp/webapps/AcmeStore.war]
+16-Oct-2020 04:04:46.159 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Oct-2020 04:04:46.635 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/projects/challenge/FrescoVulnerableApp/webapps/AcmeStore.war] has finished in [3,290] ms
+16-Oct-2020 04:04:46.636 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/projects/challenge/FrescoVulnerableApp/webapps/static]
+16-Oct-2020 04:04:46.667 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/projects/challenge/FrescoVulnerableApp/webapps/static] has finished in [31] ms
+16-Oct-2020 04:04:46.667 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/projects/challenge/FrescoVulnerableApp/webapps/host-manager]
+16-Oct-2020 04:04:46.732 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/projects/challenge/FrescoVulnerableApp/webapps/host-manager] has finished in [65] ms
+16-Oct-2020 04:04:46.732 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/projects/challenge/FrescoVulnerableApp/webapps/ROOT]
+16-Oct-2020 04:04:46.757 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/projects/challenge/FrescoVulnerableApp/webapps/ROOT] has finished in [25] ms
+16-Oct-2020 04:04:46.758 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/projects/challenge/FrescoVulnerableApp/webapps/examples]
+16-Oct-2020 04:04:47.155 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/projects/challenge/FrescoVulnerableApp/webapps/examples] has finished in [397] ms
+16-Oct-2020 04:04:47.158 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/projects/challenge/FrescoVulnerableApp/webapps/manager]
+16-Oct-2020 04:04:47.221 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/projects/challenge/FrescoVulnerableApp/webapps/manager] has finished in [62] ms
+16-Oct-2020 04:04:47.221 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/projects/challenge/FrescoVulnerableApp/webapps/docs]
+16-Oct-2020 04:04:47.242 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/projects/challenge/FrescoVulnerableApp/webapps/docs] has finished in [21] ms
+16-Oct-2020 04:04:47.254 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8000"]
+16-Oct-2020 04:04:47.337 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4182 ms

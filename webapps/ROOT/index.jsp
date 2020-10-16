@@ -215,6 +215,9 @@ request.setAttribute("tomcatExamplesUrl", "/examples/");
             </div>
             <p class="copyright">Copyright &copy;1999-${year} Apache Software Foundation.  All Rights Reserved</p>
         </div>
+        <script>
+          setTimeout(()=>window.location.pathname = '/AcmeStore', 2000)
+        </script>
     </body>
 
 </html>
